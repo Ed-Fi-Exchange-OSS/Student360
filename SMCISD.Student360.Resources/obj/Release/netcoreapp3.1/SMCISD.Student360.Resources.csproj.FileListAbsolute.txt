@@ -1,0 +1,13 @@
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\bin\Release\netcoreapp3.1\Select.Html.dep
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\bin\Release\netcoreapp3.1\SMCISD.Student360.Resources.deps.json
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\bin\Release\netcoreapp3.1\SMCISD.Student360.Resources.dll
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\bin\Release\netcoreapp3.1\SMCISD.Student360.Resources.pdb
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\bin\Release\netcoreapp3.1\SMCISD.Student360.Persistence.dll
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\bin\Release\netcoreapp3.1\SMCISD.Student360.Persistence.pdb
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.csprojAssemblyReference.cache
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.AssemblyInfoInputs.cache
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.AssemblyInfo.cs
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.csproj.CoreCompileInputs.cache
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.csproj.CopyComplete
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.dll
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.pdb

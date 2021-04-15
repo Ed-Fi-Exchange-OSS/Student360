@@ -1,0 +1,15 @@
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\bin\Release\netcoreapp3.1\Select.Html.dep
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\bin\Release\netcoreapp3.1\SMCISD.Student360.Resources.Google.deps.json
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\bin\Release\netcoreapp3.1\SMCISD.Student360.Resources.Google.dll
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\bin\Release\netcoreapp3.1\SMCISD.Student360.Resources.Google.pdb
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\bin\Release\netcoreapp3.1\SMCISD.Student360.Persistence.dll
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\bin\Release\netcoreapp3.1\SMCISD.Student360.Resources.dll
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\bin\Release\netcoreapp3.1\SMCISD.Student360.Resources.pdb
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\bin\Release\netcoreapp3.1\SMCISD.Student360.Persistence.pdb
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.Google.csprojAssemblyReference.cache
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.Google.AssemblyInfoInputs.cache
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.Google.AssemblyInfo.cs
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.Google.csproj.CoreCompileInputs.cache
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.Google.csproj.CopyComplete
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.Google.dll
+C:\Users\x11\Source\Repos\student360\SMCISD.Student360.Resources.Google\obj\Release\netcoreapp3.1\SMCISD.Student360.Resources.Google.pdb
