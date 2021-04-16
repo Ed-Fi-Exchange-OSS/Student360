@@ -1,0 +1,21 @@
+.page-size{
+  width: 20px;
+}
+.search-box{
+  width: 100px;
+  float: right;
+}
+.grid-no-data {
+  width: 100%;
+  height: 96%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid-drilldown {
+  background: #eeeeee !important;
+  padding:20px;
+}
+.no-pointer{
+    cursor: default !important;
+}

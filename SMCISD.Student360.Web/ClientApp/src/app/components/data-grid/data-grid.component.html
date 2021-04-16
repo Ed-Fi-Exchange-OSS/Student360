@@ -1,0 +1,44 @@
+<h1 *ngIf="title">{{title}} <span>{{subtitle}}</span></h1>
+<app-grid-header [grid]="grid" [showPagination]="showPagination" [showImportExport]="showImportExport"
+  [selectedColumns]="selectedColumns" [serviceName]="serviceName" [methodName]="methodName" [showSearch]="showSearch"
+  [filters]="filters" (pageSizeChanged)="updatePageSize($event)" (searchTermChanged)="searchChanged($event)">
+</app-grid-header>
+<div class="position-relative card mb-1">
+  <div class="card-body">
+    <app-loader [loading]="loading"></app-loader>
+    <div class="grid-table-container">
+      <table class="table grid-table">
+        <thead>
+          <tr>
+            <th scope="col" style="cursor: pointer;" *ngFor="let header of grid.headers; let i = index;"
+              (click)="sortGrid(header)">
+              {{getStringReplace(i,header.name)}}
+              <i class="fa fa-sort-up" style="float: right;" *ngIf="!header.order && header.order !== undefined"></i>
+              <i class="fa fa-sort-down" style="float: right;" *ngIf="header.order && header.order !== undefined"></i>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngFor="let item of grid.data">
+            <tr (click)="item.showDrilldown = !item.showDrilldown;">
+              <td *ngFor="let col of grid.columns; let i = index; ">{{item[col] | shorten: getShortenOption(i)}}</td>
+            </tr>
+            <tr class="no-pointer" *ngIf="item.showDrilldown && drilldownComponent">
+              <td class="grid-drilldown" [colSpan]="grid.headers.length">
+                <ng-container [ngSwitch]="drilldownComponent">
+                  <app-student-profile *ngSwitchCase="'app-student-profile'" [object]="item"></app-student-profile>
+                  <app-student-hour-history *ngSwitchCase="'app-student-hour-history'" [object]="item">
+                  </app-student-hour-history>
+                </ng-container>
+              </td>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+      <div *ngIf="!grid.data || grid.data.length == 0" class="grid-no-data">No Data</div>
+    </div>
+  </div>
+</div>
+<app-grid-footer [pageNumber]="grid.pageNumber" [pageSize]="grid.pageSize" [filteredCount]="grid.filteredCount"
+  [totalCount]="grid.totalCount" [maxPageNumber]="grid.maxPageNumber" [showPagination]="showPagination"
+  (pageChanged)="pageChanged($event)"></app-grid-footer>
