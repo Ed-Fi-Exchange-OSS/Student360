@@ -2,7 +2,7 @@
 
 ## Adjusting the AppSettings File
 
-| :exclamation: Take care that you do not accidentally update the `appsettings.json` file and commit it into a public source code repository on GitHub, BitBucket, etc. |
+| :exclamation: Take care that you do not accidentally commit these changes into a **public source code repository** on GitHub, BitBucket, etc. |
 | -- |
 
 ### Required Settings
@@ -25,3 +25,7 @@ under `SMCISD.Student360.Web/wwwroot/Resources`. These can be edited manually. A
 better long term solution would be to modify the `ReportViewerController` class
 (C#) to inject the connection string at runtime, following [these
 instructions](https://help.boldreports.com/report-viewer-sdk/javascript-reporting/report-viewer/how-to/change-datasource-dynamic-at-server-side/).
+
+## Google API
+
+Insert your Google Maps API key in `SMCISD.Student360.Web/ClientApp/src/index.html`.
